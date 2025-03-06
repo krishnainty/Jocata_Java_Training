@@ -1,0 +1,33 @@
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/jsonProject</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">krishna@inty</property>
+
+        <!-- Hibernate settings -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- Mapping annotated entity classes -->
+        <mapping class="org.example.entity.LoanEcosystem"/>
+        <mapping class="org.example.entity.Institution"/>
+        <mapping class="org.example.entity.Branch"/>
+        <mapping class="org.example.entity.Manager"/>
+        <mapping class="org.example.entity.LoanApplication"/>
+        <mapping class="org.example.entity.Applicant"/>
+        <mapping class="org.example.entity.PersonalDetails"/>
+        <mapping class="org.example.entity.ContactDetails"/>
+        <mapping class="org.example.entity.Address"/>
+        <mapping class="org.example.entity.EmploymentDetails"/>
+        <mapping class="org.example.entity.LoanDetails"/>
+        <mapping class="org.example.entity.RepaymentSchedule"/>
+        <mapping class="org.example.entity.Collateral"/>
+        <mapping class="org.example.entity.RiskAssessment"/>
+        <mapping class="org.example.entity.Flag"/>
+        <mapping class="org.example.entity.RegulatoryCompliance"/>
+        <mapping class="org.example.entity.Transaction"/>
+    </session-factory>
+</hibernate-configuration>

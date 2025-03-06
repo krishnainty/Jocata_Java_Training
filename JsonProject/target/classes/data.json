@@ -1,0 +1,131 @@
+{
+  "loanEcosystem": {
+    "institutions": [
+      {
+        "institutionId": "BANK-001",
+        "name": "Global Finance Bank",
+        "branches": [
+          {
+            "branchId": "BR-101",
+            "location": "New York",
+            "managers": [
+              {
+                "managerId": "MGR-789",
+                "name": "Alice Johnson",
+                "email": "alice.johnson@globalfinance.com"
+              }
+            ],
+            "loanApplications": [
+              {
+                "applicationId": "APP-20250221-001",
+                "applicant": {
+                  "personalDetails": {
+                    "name": "John Doe",
+                    "dob": "1985-07-15",
+                    "ssn": "123-45-6789",
+                    "contactDetails": {
+                      "email": "john.doe@example.com",
+                      "phone": "+1-555-1234",
+                      "addresses": [
+                        {
+                          "type": "home",
+                          "street": "123 Main St",
+                          "city": "New York",
+                          "state": "NY",
+                          "zip": "10001"
+                        },
+                        {
+                          "type": "work",
+                          "street": "456 Office Plaza",
+                          "city": "New York",
+                          "state": "NY",
+                          "zip": "10005"
+                        }
+                      ]
+                    }
+                  },
+                  "employmentDetails": {
+                    "employer": "Tech Solutions Inc.",
+                    "jobTitle": "Software Engineer",
+                    "annualIncome": 95000.00,
+                    "employmentType": "Full-time",
+                    "yearsAtJob": 5
+                  }
+                },
+                "loanDetails": {
+                  "amount": 250000.00,
+                  "currency": "USD",
+                  "termInYears": 30,
+                  "interestRate": 4.5,
+                  "repaymentSchedule": [
+                    {
+                      "month": 1,
+                      "dueDate": "2025-03-01",
+                      "amountDue": 1200.50,
+                      "status": "Pending"
+                    },
+                    {
+                      "month": 2,
+                      "dueDate": "2025-04-01",
+                      "amountDue": 1200.50,
+                      "status": "Paid"
+                    }
+                  ]
+                },
+                "collateral": [
+                  {
+                    "type": "Real Estate",
+                    "value": 300000.00,
+                    "description": "Apartment in NYC"
+                  },
+                  {
+                    "type": "Vehicle",
+                    "value": 25000.00,
+                    "description": "Tesla Model 3"
+                  }
+                ],
+                "riskAssessment": {
+                  "creditScore": 750,
+                  "defaultProbability": 0.02,
+                  "flags": [
+                    {
+                      "type": "High Debt-to-Income Ratio",
+                      "severity": "Moderate"
+                    },
+                    {
+                      "type": "Previous Late Payments",
+                      "severity": "Low"
+                    }
+                  ]
+                },
+                "regulatoryCompliance": {
+                  "kycStatus": "Verified",
+                  "amlCheck": "Passed",
+                  "sanctionsScreening": "Clear",
+                  "lastAudit": "2025-02-10"
+                },
+                "transactions": [
+                  {
+                    "transactionId": "TXN-1001",
+                    "date": "2025-02-15",
+                    "amount": 5000.00,
+                    "type": "Loan Disbursement",
+                    "status": "Completed"
+                  },
+                  {
+                    "transactionId": "TXN-1002",
+                    "date": "2025-03-01",
+                    "amount": 1200.50,
+                    "type": "EMI Payment",
+                    "status": "Pending"
+                  }
+                ],
+                "status": "Under Review"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
